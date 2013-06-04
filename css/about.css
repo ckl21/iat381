@@ -1,12 +1,16 @@
+#mainContent{
+	margin-bottom:15px;
+}
+
 #homeImage{
 	width:100%
 }
 
-h2{
+h1{
 	margin:10px 0 10px 0;
 }
 
-h3{
+h2{
 	padding:20px;
 }
 
@@ -33,7 +37,7 @@ h3{
 
 #twitterFeed{
 	margin-top:30px;
-	height:520px;
+	height:530px;
 	background-color:rgb(230,230,230);
 }
 
