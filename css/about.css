@@ -37,11 +37,14 @@ h2{
 
 
 #twitterFeed{
-	margin-top:50px;
-	height:500px;
+	margin-top:40px;
+	height:510px;
 	background-color:rgb(230,230,230);
 }
 
+#twitterLinks a{
+	margin:0 5px;
+}
 .tweet{
 	width:280px;
 	margin:0px auto 30px auto;
