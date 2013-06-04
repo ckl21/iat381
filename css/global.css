@@ -30,6 +30,10 @@ nav ul li a, footer ul li a{
 	font-size:16px;
 }
 
+nav ul li a:hover, footer ul li a:hover{
+	color:rgb(164,223,217);
+}
+
 footer{
 	background-color:rgb(64,65,66);
 	height:120px;
