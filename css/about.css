@@ -1,0 +1,59 @@
+#homeImage{
+	width:100%
+}
+
+h2{
+	margin:10px 0 10px 0;
+}
+
+h3{
+	padding:20px;
+}
+
+#aboutContent{
+	float:left;
+	width:500px;
+	margin:10px 0px 20px 160px;
+}
+
+#videoPlaceholder{
+	margin-top:10px;
+}
+
+#twitterContent{
+	float:left;
+	width:350px;
+	margin:50px 0px 20px 140px;
+}
+
+.twitterHighlight{
+	color:rgb(64,153,255);
+}
+
+
+#twitterFeed{
+	margin-top:30px;
+	height:520px;
+	background-color:rgb(230,230,230);
+}
+
+.tweet{
+	width:280px;
+	margin:0px auto 30px auto;
+	padding:10px;
+	background-color:rgb(220,220,220);
+}
+
+.tweetTime{
+	margin:0 0 40px 30px;
+}
+
+.twitterBird{
+	float:left;
+	margin-right:10px;
+}
+
+.tweetTime p{
+	padding:2px;
+	font-size:10px;
+}
