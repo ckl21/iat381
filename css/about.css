@@ -18,7 +18,7 @@ h2{
 #aboutContent{
 	float:left;
 	width:500px;
-	margin:10px 0px 20px 160px;
+	margin:0;
 }
 
 #videoPlaceholder{
@@ -26,9 +26,9 @@ h2{
 }
 
 #twitterContent{
-	float:left;
+	float:right;
 	width:350px;
-	margin:50px 0px 20px 140px;
+	margin:50px 0 0 0;
 }
 
 .twitterHighlight{
@@ -38,7 +38,7 @@ h2{
 
 #twitterFeed{
 	margin-top:50px;
-	height:510px;
+	height:500px;
 	background-color:rgb(230,230,230);
 }
 

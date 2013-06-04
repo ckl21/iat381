@@ -5,6 +5,11 @@ body{
  margin:0 auto;
 }
 
+#centerContent{
+	width:950px;
+	margin:0 auto;
+}
+
 .clearBoth{
 	clear:both;
 }
