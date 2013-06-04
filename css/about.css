@@ -1,9 +1,22 @@
 #mainContent{
 	margin-bottom:15px;
+
+}
+
+#imageFrame{
+	height:388px;
+	background-color:rgb(164,223,217);
+	overflow:hidden;
+}
+
+#bar{
+	height:10px;
+	background-color:rgb(164,223,217);
 }
 
 #homeImage{
-	width:100%
+	width:100%;
+	
 }
 
 h1{

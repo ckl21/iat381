@@ -1,13 +1,12 @@
 body{
- font-family: verdana,arial,sans-serif;
- font-size:14px;
- width:1280px;
- margin:0 auto;
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	margin:0 auto;
 }
 
 #centerContent{
 	width:950px;
-	margin:0 auto;
+	margin:auto;
 }
 
 .clearBoth{
