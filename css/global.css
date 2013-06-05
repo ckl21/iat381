@@ -1,6 +1,7 @@
 body{
-	font-family: verdana,arial,sans-serif;
-	font-size:14px;
+	font-family: helvetica,arial,sans-serif;
+	font-size:12px;
+	color: rgb(64,65,66);
 	margin:0 auto;
 }
 
@@ -35,7 +36,7 @@ nav ul li a, footer ul li a{
 }
 
 nav ul li a:hover, footer ul li a:hover{
-	color:rgb(164,223,217);
+	color:#A3DED8;
 }
 
 footer{

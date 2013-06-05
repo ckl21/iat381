@@ -1,0 +1,40 @@
+#mainContent{
+	margin-bottom:15px;
+}
+
+#imageFrame{
+	height:220px;
+	background-color: #A3DED8;
+	overflow: hidden;
+}
+
+#bar{
+	height:10px;
+	background-color:#A3DED8;
+}
+
+#contactImage{
+	width:100%;
+}
+
+h1{
+	margin: 40px 0 10px 0;
+}
+
+h2{
+	padding: 20px;
+	margin: 0;
+}
+
+#contactContent{
+	float:left;
+	width:200px;
+	margin:0px;
+}
+
+#location{
+	float: right;
+	margin-top:45px;
+	width: 695px;
+}
+

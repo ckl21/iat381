@@ -5,13 +5,13 @@
 
 #imageFrame{
 	height:388px;
-	background-color:rgb(164,223,217);
+	background-color:#A3DED8;
 	overflow:hidden;
 }
 
 #bar{
 	height:10px;
-	background-color:rgb(164,223,217);
+	background-color:#A3DED8;
 }
 
 #homeImage{
@@ -20,7 +20,7 @@
 }
 
 h1{
-	margin:10px 0 10px 0;
+	margin:40px 0 30px 0;
 }
 
 h2{
@@ -30,33 +30,33 @@ h2{
 
 #aboutContent{
 	float:left;
-	width:500px;
+	width:505px;
 	margin:0;
 }
 
 #videoPlaceholder{
-	margin-top:10px;
+	margin-top:35px;
 }
 
-#twitterContent{
+#socialmediaContent{
 	float:right;
 	width:350px;
 	margin:50px 0 0 0;
 }
 
 .twitterHighlight{
-	color:rgb(64,153,255);
+	color:#00ccff;
 }
 
 
 #twitterFeed{
-	margin-top:40px;
+	margin-top:30px;
 	height:510px;
 	background-color:rgb(230,230,230);
 }
 
-#twitterLinks a{
-	margin:0 5px;
+#socialmediaLinks a{
+	margin:0 10px;
 }
 .tweet{
 	width:280px;
