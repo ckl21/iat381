@@ -17,6 +17,7 @@ body{
 header{
 	background-color:rgb(64,65,66);
 	height: 71px;
+	display: block;
 }
 
 nav{
@@ -35,9 +36,17 @@ nav ul li a, footer ul li a{
 	font-size:16px;
 }
 
-nav ul li a:hover, footer ul li a:hover{
-	color:#A3DED8;
+nav ul li a:hover, nav ul li a:active {
+	border-top: 8px solid #A3DED8;
+	padding: 15px 0 0 0;
+	
 }
+
+footer ul li a:hover{
+	color:#A3DED8;
+
+}
+
 
 footer{
 	background-color:rgb(64,65,66);
