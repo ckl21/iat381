@@ -2,56 +2,68 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
 	<title>Board 42 Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/shop.css" />
+	<link rel="stylesheet" type="text/css" href="css/item.css" />
 </head>
 
 <body>
 
 	<header>
-		<a href="index.html"> <image id="logo" src="images/logo.jpg" alt="Board 42" /> </a>
+		<a href="index.html"> <img id="logo" src="images/logo.png" alt="Board 42" /> </a>
 		<nav>
 			<ul>
 				<li><a href="">Cart</a></li>
 				<li><a href="contact.html">Contact</a></li>
-				<li><a href="shop.html">Shop</a></li>
+				<li><a class="active"  href="shop.html">Shop</a></li>
 				<li><a href="index.html">About</a></li>
 			</ul>
 		</nav>
 	</header>
 	<div id="mainContent">
+	<a href="shop.html" id="backButton" title="back"><img src="images/back" alt="Back"/></a>
 		<div id="centerContent">
 			<h1>Shop</h1>
 			
 			<div id="itemView">
 				<div id="itemViewLarge">
-					<img src="images/boards/boards_03.jpg" />
+					<img src="images/boards/boards_03.jpg" height="425" />
 				</div>
 				<div class="itemViewThumbs"> 
-					<img src="images/boards/boards_03.jpg" />
+					<img src="images/boards/boards_03.jpg" height="90" />
 				</div>
 				<div class="itemViewThumbs"> 
-					<img src="images/boards/boards_03.jpg" />
+					<img src="images/boards/boards_03.jpg" height="90" />
 				</div>
 				<div class="itemViewThumbs"> 
-					<img src="images/boards/boards_03.jpg" />
+					<img src="images/boards/boards_03.jpg" height="90" />
 				</div>
-				<div class="itemViewThumbs"> 
-					<img src="images/boards/boards_03.jpg" />
+				<div class="itemViewThumbs itemViewThumbsLast"> 
+					<img src="images/boards/boards_03.jpg" height="90" />
 				</div>
 			</div>
 			
 			<div id="itemDescription">
-			
+				<div id="tabs">
+					<div id="productTab">Product</div>
+					<div class="inactive" id="reviewsTab">Reviews</div>
+				</div>
+			<h2>Baroong Board</h2>
+			<p>$75.00</p>
+			<p>This cruiser board is built for the streets or going downhill. Whether you are traveling to and from glass or just out to grab a burger, it will help you enjoy your ride. This board is espescially made for the regular cruiser who likes to take it easy, relax on the journey and just feel the rythm of the board.</p>
+			<h3>Quantity</h3>
+			<form>
+				<input id="quantityInput" type="text" size="4" maxlength="4" name="quantity">
+				<input id="quantitySubmit" type="submit" value="Add to Cart">
+			</form>
 			</div>
-			
 		</div>
 		<div class="clearBoth"></div>
 	</div>
 
 	<footer>
-		<img id="footerLogo" src="images/footerLogo.jpg" />
+		<img id="footerLogo" src="images/footerLogo.png" />
 		<ul>
 			<li><a href="index.html">About</a></li>
 			<li><a href="shop.html">Shop</a></li>
