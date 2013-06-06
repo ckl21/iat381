@@ -18,6 +18,7 @@ header{
 	background-color:rgb(64,65,66);
 	height: 71px;
 	display: block;
+	min-width:500px;
 }
 
 nav{
@@ -56,6 +57,7 @@ footer ul li a:hover{
 footer{
 	background-color:rgb(64,65,66);
 	height:120px;
+	min-width:500px;
 }
 
 #footerLogo{

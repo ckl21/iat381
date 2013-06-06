@@ -15,6 +15,7 @@
 
 #contactImage{
 	width:100%;
+	min-width:1280px;
 }
 
 h1{
