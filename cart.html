@@ -23,7 +23,70 @@
 	</header>
 	<div id="mainContent">
 		<div id="centerContent">
+			<h1>Shopping Cart</h1>
 			
+			<div id="billingInfo">
+				<h2>Billing Info</h2>
+				<form action="">
+					<input id="firstName" type="text" placeholder="First Name" size="25" name="first_name">
+					<input id="lastName" type="text" placeholder="Last Name" size="25" name="last_name">
+					<input id="email" type="text" placeholder="Email" size="50" name="email">
+					<input id="address1" type="text" placeholder="Address Line 1" size="50" name="address_1">
+					<input id="address2" type="text" placeholder="Address Line 2" size="50" name="address_2">
+					<select id="country" name="country">
+						<option value="" disabled selected>Country</option>
+						<option value="Canada">Canada</option>
+						<option value="United States">United States</option>
+					</select>
+					<input id="city" type="text" placeholder="City" size="16" name="city">
+					<select id="state" name="state">
+						<option value="" disabled selected>State</option>
+						<option value="Washington">Washington</option>
+						<option value="Oregon">Oregon</option>
+					</select>
+					<input id="zip" type="text" placeholder="Zip" size="16" name="zip">
+					<input id="phoneNumber" type="text" placeholder="Phone Number" size="50" name="phone_number">
+					<input type="checkbox" name="newsletter" id="newsletter" value="newsletter" />
+					<label for="newsletter">Join our mailing list to hear when new products arrive.</label>
+					<input id="billingSubmit" type="submit" value="Continue">
+				</form>
+			</div>
+			
+			<div id=cart">
+				<table>
+					<tbody>
+						<tr>
+							<th>Item</th>
+							<th>Quantity</th>
+							<th>Price</th>
+							<th>Remove</th>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr />
+				<table>
+					<tbody>
+						<tr>
+							<td>Subtotal</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Shipping</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 			
 		</div>
 		<div class="clearBoth"></div>
