@@ -1,0 +1,100 @@
+#mainContent{
+	background-color:#A3DED8;
+	padding-bottom:30px;
+}
+
+
+h1{
+	padding:30px 0 15px 0;
+	margin:0;
+	color: white;
+	font-weight:normal;
+}
+
+h2{
+	padding:10px 0 5px 20px;
+}
+
+#billingInfo{
+	float:left;
+	width:450px;
+	height:500px;
+	background-color:white;
+}
+
+#cart{
+	float:right;
+	width:450px;
+	height:500px;
+	background-color:white;
+}
+
+#billingForm{
+	margin:20px;
+}
+
+#billingSubmit{
+	float:right;
+	margin-top:75px;
+}
+
+.span33{
+	width:31%;
+	margin-bottom:20px;
+}
+.span50{
+	width:48%;
+	margin-bottom:20px;
+}
+
+.span100{
+	width:98%;
+	margin-bottom:20px;
+}
+
+#cartContents{
+	margin-top:20px;
+	width:100%;
+	height:365px;
+}
+
+#cartContents th{
+	height:10px;
+	width:25%;
+}
+
+.notEmpty{
+	height:125px;
+}
+
+#cartContents td{
+	text-align:center;
+}
+
+.itemImg{
+	margin-left:20px;
+}
+
+.removeIcon{
+	display:block;
+	margin:0 auto;
+}
+
+.itemName{
+	float:right;
+	margin-top:30px;
+	text-align:left;
+}
+
+#total{
+	width:100%;
+	padding:5px 20px 0 0;
+}
+
+#total td{
+	width:45%;
+	text-align:right;
+	height:20px;
+}
+
+
