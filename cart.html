@@ -6,6 +6,7 @@
 	<title>Board 42 Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/cart.css" />
+	<script>&nbsp;</script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
 			
 			<div id="billingInfo">
 				<h2>Billing Info</h2>
-				<form id="billingForm" action="">
+				<form id="billingForm">
 					<input class="span50" id="firstName" type="text" placeholder="First Name" name="first_name">
 					<input class="span50" id="lastName" type="text" placeholder="Last Name" name="last_name">
 					<br/>
@@ -362,7 +363,7 @@
 							<td><a href="item01.html"><img class="itemImg" src="images/boards/boards_03.jpg" height="90" alt="Skateboard" /> <span class="itemName">Baroong<br /> Board</span></a></td>
 							<td>
 							<form>
-								<input type="number" size="2" value="1" name="quantity">
+								<input id="quantity" type="number" min="1" max="99" value="1" name="quantity">
 							</form>
 							</td>
 							<td>$75.00</td>
@@ -376,7 +377,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<hr width="90%" />
+				<hr/>
 				<table id="total">
 					<tbody>
 						<tr>
@@ -400,7 +401,7 @@
 	</div>
 
 	<footer>
-		<img id="footerLogo" src="images/footerLogo.png" />
+		<img id="footerLogo" src="images/footerLogo.png" alt="Board 42"/>
 		<ul>
 			<li><a href="index.html">About</a></li>
 			<li><a href="shop.html">Shop</a></li>

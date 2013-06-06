@@ -75,6 +75,10 @@ h2{
 	margin-left:20px;
 }
 
+#quantity{
+	width:50px;
+}
+
 .removeIcon{
 	display:block;
 	margin:0 auto;
@@ -97,4 +101,7 @@ h2{
 	height:20px;
 }
 
+hr{
+	width:90%;
+}
 
