@@ -80,7 +80,20 @@ h1{
 
 #quantitySubmit{
 	float:right;
-	margin:175px 25px 0 0;
+	margin:165px 15px 0 0;
+	background-color:rgb(64,65,66);
+	font-size: 24px;
+	padding: 12px 18px 13px;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow:none;
+	width: 200px;
+}
+
+#quantitySubmit:hover{
+background:#7A7A7A;
+
 }
 
 .inactive{

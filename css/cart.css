@@ -43,6 +43,12 @@ h2{
 	color: #ffffff;
 	text-decoration: none;
 	text-shadow:none;
+	width: 200px;
+}
+
+#billingSubmit:hover{
+background:#7A7A7A;
+
 }
 
 .span33{
