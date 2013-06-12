@@ -51,7 +51,7 @@ footer{
 footer ul{
 	float:none;
 	list-style-type:none;
-	text-align:right;
+	margin-left:25px;
 }
 
 footer ul li{
