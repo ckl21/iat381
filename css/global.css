@@ -3,6 +3,7 @@ body{
 	font-size:12px;
 	color: rgb(64,65,66);
 	margin:0 auto;
+	min-width:265px;
 }
 
 #centerContent{

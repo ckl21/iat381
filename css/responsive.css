@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (max-width: 959px) {
+
+#header{
+	max-width: 767px;
+}
+
+.newRow{
+	max-width: 690px;
+}
+
+}
+
+/*Tablet (landscape) 1024px screen*/
+@media (device-width: 768px) and (device-height: 1024px) and (orientation: landscape){
+}
+
+/*Tablet (portrait) 730px screen*/
+@media (max-width: 730px){
+}
+
+/*Mobile (portrait) 280px screen*/
+@media (max-width: 768px){
+}
+
+/*Mobile (landscape) 480px screen*/
+@media (max-width: 480px){
+
+#header {
+		width: 350px;
+		display: block;
+		height: 50px;
+		/*height doesnt change it correctly*/
+}
+
+nav ul li a {
+	font-size: 12px;
+}
+
+#imageFrame{
+	width: 480px;
+}
+#logo {
+	width: 110px;
+	height: 50px;
+	margin: 5px 0 0 0;
+	position: absolute;
+}
+
+}

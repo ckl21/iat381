@@ -1,9 +1,9 @@
+
 header{
 	background-color:rgb(64,65,66);
 	display: block;
 	height:150px;
 	padding:0;
-	min-width:265px;
 
 }
 
@@ -42,11 +42,10 @@ footer{
 	background-color:rgb(64,65,66);
 	height:260px;
 	padding-top:5px;
-	min-width:265px;
 }
 
 #footerLogo{
-display:none;
+	display:none;
 }
 
 footer ul{
