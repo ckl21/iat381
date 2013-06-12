@@ -6,8 +6,9 @@ body{
 }
 
 #centerContent{
-	width:950px;
+	max-width:950px;
 	margin:auto;
+	width:95%;
 }
 
 .clearBoth{
@@ -18,7 +19,6 @@ header{
 	background-color:rgb(64,65,66);
 	height: 71px;
 	display: block;
-	min-width:500px;
 }
 
 nav{
@@ -57,7 +57,6 @@ footer ul li a:hover{
 footer{
 	background-color:rgb(64,65,66);
 	height:120px;
-	min-width:500px;
 }
 
 #footerLogo{

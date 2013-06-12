@@ -4,19 +4,18 @@
 }
 
 #imageFrame{
-	height:388px;
+	max-height:350px;
 	background-color:#A3DED8;
 	overflow:hidden;
 }
 
 #bar{
-	height:10px;
+	height:5px;
 	background-color:#A3DED8;
 }
 
 #homeImage{
 	width:100%;
-	min-width:1280px;
 	
 }
 

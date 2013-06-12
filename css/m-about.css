@@ -1,0 +1,31 @@
+#socialmediaContent{
+	float:none;
+	margin:25px auto;
+	width:85%;
+	}
+
+#aboutContent{
+	float:none;
+	margin:0 auto;
+	width:95%;
+}
+
+#centerContent{
+	width:95%;
+}
+
+#videoPlaceholder{
+	display:block;
+	margin:30px auto;
+	width:95%;
+	max-width:500px;
+}
+
+.tweet{
+	width:85%;
+}
+
+.tweetTime{
+	margin:30px auto;
+	width:85%;
+}
