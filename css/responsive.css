@@ -37,10 +37,11 @@
 
 nav ul li a {
 	font-size: 12px;
-	
-	
 }
 
+#imageFrame{
+	width: 480px;
+}
 #logo {
 	width: 110px;
 	height: 50px;
