@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@media only screen and (max-width: 959px) {
+@media (max-width: 959px) {
 
 h1{
-	max-width: 730px;
+	max-width: 767px;
 }
 
 .newRow{
@@ -14,17 +14,17 @@ h1{
 }
 
 /*Tablet (landscape) 1024px screen*/
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: landscape){
+@media (device-width: 768px) and (device-height: 1024px) and (orientation: landscape){
 }
 
 /*Tablet (portrait) 730px screen*/
-@media only screen and (max-width: 959px) and (min-width: 768px){
+@media (max-width: 730px){
 }
 
 /*Mobile (portrait) 280px screen*/
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px){
 }
 
 /*Mobile (landscape) 480px screen*/
-@media only screen and (max-width: 767px) and (min-width: 480px){
+@media (max-width: 480px){
 }
