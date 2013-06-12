@@ -1,0 +1,12 @@
+#contactContent{
+	float:none;
+	text-align:center;
+	width:100%;
+}
+
+#location{
+	float:none;
+	width:90%;
+	margin:25px auto 0 auto;
+	display:block;
+}

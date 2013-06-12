@@ -3,19 +3,18 @@
 }
 
 #imageFrame{
-	height:220px;
-	background-color: #A3DED8;
-	overflow: hidden;
+	max-height:255px;
+	background-color:#A3DED8;
+	overflow:hidden;
 }
 
 #bar{
-	height:10px;
+	height:5px;
 	background-color:#A3DED8;
 }
 
 #contactImage{
 	width:100%;
-	min-width:1280px;
 }
 
 h1{
@@ -36,6 +35,7 @@ h2{
 #location{
 	float: right;
 	margin-top:45px;
+	margin-bottom:15px;
 	width: 695px;
 }
 
