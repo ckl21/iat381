@@ -17,7 +17,7 @@
 #videoPlaceholder{
 	display:block;
 	margin:30px auto;
-	width:95%;
+	width:99%;
 	max-width:500px;
 }
 
@@ -25,7 +25,19 @@
 	width:85%;
 }
 
+#twitterFeed{
+	margin:45px auto;
+	width: 95%;
+	height: 95%;
+}
+
 .tweetTime{
 	margin:30px auto;
-	width:85%;
+	width:95%;
+}
+
+#socialmediaContent{
+	margin: 45px auto;
+	width:95%;
+	float: center;
 }
