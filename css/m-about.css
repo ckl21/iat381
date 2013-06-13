@@ -1,7 +1,7 @@
 #socialmediaContent{
 	float:none;
-	margin:25px auto;
-	width:85%;
+	margin:45px auto;
+	width:95%;
 	}
 
 #aboutContent{
@@ -34,10 +34,4 @@
 .tweetTime{
 	margin:30px auto;
 	width:95%;
-}
-
-#socialmediaContent{
-	margin: 45px auto;
-	width:95%;
-	float: center;
 }
