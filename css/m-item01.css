@@ -1,37 +1,82 @@
-#itemViewLarge{
-	float: center;
-	width:80%;
-	height: auto;
-	margin: 0 0 30px 10px;
-}	
+@media (max-width: 955px) {
+	#itemView{
+		float: none;
+		width:80%;
+		margin: 0 auto;
+	}	
 
-.itemViewThumbs{
-	width: 13%;
-	height: auto;
-	margin: 0 30px 0 10px;
-}
+	#itemViewLarge{
+		width:100%;
+	}	
 
-#itemDescription{
-	float: left;
-	width: 87%;
-	max-width: 420px;
-	margin: 30px 0 30px 0;
+
+	#itemDescription{
+		float: none;
+		width: 87%;
+		margin:180px auto 0 auto;
+		
+	}
+
+	#centerContent{
+		width:95%;
+	}
+
+	#quantitySubmit{
+		width: 50%;
+		margin: 150px 15px 0 70px;
+	}
+
+	#tabs div{
+		width: 50%;
+	}
+
+	#backButton{
+		display:none;
+	}
+
+	h1{
+		width:80%;
+		display:block;
+		margin:0 auto;
+	}
 	
-}
-
-#quantitySubmit{
+	#itemDescription h2{
+		padding-top:75px;
+	}
+	#quantitySubmit{
+	font-size: 125%;
+	margin-top:150px;
+	margin-right:25px;
 	width: 50%;
-	margin: 150px 15px 0 70px;
+	}
+	#quantityInput{
+	width:25%;
 }
 
-#tabs div{
-	width: 50%;
 }
+@media (max-width: 560px) {
+	
+	.itemViewThumbsMid{
+		margin-right:0;
+	}
 
-#backButton{
-	padding:10px 0 0px 0;
-}
-
-#header{
-	float: left;
+	.itemViewNewRow{
+		clear:both;
+	}
+	#itemDescription{
+		margin-top:270px;
+		
+	}
+	#quantitySubmit{
+	margin-top:25px;
+	width:80%;
+	float:none;
+	margin:20px;
+	}
+	#itemDescription{
+	height:auto;
+	}
+	#quantityInput{
+	width:60%;
+	}
 }
