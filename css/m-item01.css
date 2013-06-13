@@ -1,0 +1,37 @@
+#itemViewLarge{
+	float: center;
+	width:80%;
+	height: auto;
+	margin: 0 0 30px 10px;
+}	
+
+.itemViewThumbs{
+	width: 13%;
+	height: auto;
+	margin: 0 30px 0 10px;
+}
+
+#itemDescription{
+	float: left;
+	width: 87%;
+	max-width: 420px;
+	margin: 30px 0 30px 0;
+	
+}
+
+#quantitySubmit{
+	width: 50%;
+	margin: 150px 15px 0 70px;
+}
+
+#tabs div{
+	width: 50%;
+}
+
+#backButton{
+	padding:10px 0 0px 0;
+}
+
+#header{
+	float: left;
+}
