@@ -17,3 +17,13 @@
 	width:47%;
 	
 }
+
+.itemImg{
+	display:none;
+}
+
+.itemName{
+	float:none;
+	margin-top:0;
+	text-align:left;
+}
