@@ -13,7 +13,7 @@
 	#itemDescription{
 		float: none;
 		width: 87%;
-		margin:180px auto 0 auto;
+		margin:0 auto 0 auto;
 		
 	}
 
@@ -56,16 +56,16 @@
 }
 @media (max-width: 560px) {
 	
+	#itemThumbnails{
+		width:200px;
+		margin:0 auto;
+	}
 	.itemViewThumbsMid{
 		margin-right:0;
 	}
 
 	.itemViewNewRow{
 		clear:both;
-	}
-	#itemDescription{
-		margin-top:270px;
-		
 	}
 	#quantitySubmit{
 	margin-top:25px;
@@ -74,6 +74,7 @@
 	margin:20px;
 	}
 	#itemDescription{
+	margin-top:0;
 	height:auto;
 	}
 	#quantityInput{
