@@ -1,9 +1,11 @@
 body{
-	font-family: helvetica,arial,sans-serif;
-	font-size:12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size:16 em;
 	color: rgb(64,65,66);
 	margin:0 auto;
 	min-width:265px;
+
 }
 
 #centerContent{
