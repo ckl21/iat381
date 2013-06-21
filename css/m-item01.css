@@ -23,7 +23,8 @@
 
 	#quantitySubmit{
 		width: 50%;
-		margin: 150px 15px 0 70px;
+		margin: 75px 15px 0 70px;
+		
 	}
 
 	#tabs div{
@@ -43,12 +44,7 @@
 	#itemDescription h2{
 		padding-top:75px;
 	}
-	#quantitySubmit{
-	font-size: 125%;
-	margin-top:150px;
-	margin-right:25px;
-	width: 50%;
-	}
+
 	#quantityInput{
 	width:25%;
 }

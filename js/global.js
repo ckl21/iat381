@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
     var menu = 0;
 	$('#dropdown').click(function(){

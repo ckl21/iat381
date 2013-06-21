@@ -36,29 +36,39 @@ nav ul li{
 	list-style-type:none;
 	clear:both;
 	margin:0;
-	padding:15px 0 15px 50px;
-	width:100%;
+	padding:0;
 	float:none;
-	border-bottom:1px solid rgb(55,55,55);
+	
 }
 
 nav ul li a, footer ul li a{
 	color:rgb(230,230,230);
 	text-decoration:none;
 	font-size:16px;
-	padding:0;
 }
 
 nav ul li a:hover, nav ul li a:active {
 	border-top: none;
-	padding: 0;
 	color:#A3DED8;
+	padding:15px 0 15px 50px;
+	width:100%;
 	
+}
+nav ul li a{
+	padding:15px 0 15px 50px;
+	width:100%;
+	margin:0;
+	border-bottom:1px solid rgb(55,55,55);
+	display:block;
 }
 
 .active{
 	border-top: none;
-	padding: 0;
+	padding:15px 0 15px 50px;
+	width:100%;
+	margin:0;
+	border-bottom:1px solid rgb(55,55,55);
+	display:block;
 }
 
 footer{
