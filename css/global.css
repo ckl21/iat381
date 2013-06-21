@@ -28,6 +28,10 @@ nav{
 	float:right;
 }
 
+#dropdown{
+	display:none;
+}
+
 nav ul li{
 	float:right;
 	margin:10px 35px 0 0;

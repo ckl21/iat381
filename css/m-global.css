@@ -2,7 +2,6 @@
 header{
 	background-color:rgb(64,65,66);
 	display: block;
-	height:150px;
 	padding:0;
 
 }
@@ -10,6 +9,14 @@ header{
 nav{
 	float:right;
 	padding:0;
+}
+
+#dropdown{
+	display:block;
+	padding:10px;
+}
+nav ul{
+	display:none;
 }
 
 nav ul li{
