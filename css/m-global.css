@@ -3,27 +3,40 @@ header{
 	background-color:rgb(64,65,66);
 	display: block;
 	padding:0;
+	height:auto;
+	
 
 }
 
 nav{
-	float:right;
-	padding:0;
+	float:none;
+	background-color:rgb(64,65,66);
+	width:100%;
+	border-top:1px solid rgb(55,55,55);
+	
 }
 
+#imageFrame{
+	clear:both;
+}
 #dropdown{
 	display:block;
 	padding:10px;
+	float:right;
 }
 nav ul{
-	display:none;
+	padding:0;
+	margin:0;
 }
 
 nav ul li{
-	margin:10px 35px 0 0;
 	list-style-type:none;
 	clear:both;
-	padding:0;
+	margin:0;
+	padding:15px 0 15px 50px;
+	width:100%;
+	float:none;
+	border-bottom:1px solid rgb(55,55,55);
 }
 
 nav ul li a, footer ul li a{
