@@ -3,7 +3,7 @@ header{
 	background-color:rgb(64,65,66);
 	display: block;
 	padding:0;
-	height:auto;
+	overflow:hidden;
 	
 
 }
@@ -22,7 +22,10 @@ nav{
 #dropdown{
 	display:block;
 	padding:10px;
+	margin-top:11px;
 	float:right;
+	height:25px;
+	cursor:pointer;
 }
 nav ul{
 	padding:0;
