@@ -1,12 +1,23 @@
 
 $(document).ready(function() {
-    var menu = 0;
+	var menu;
+	if ($(window).width() < 500) {
+
+		$("header").css({height : 68});
+		menu = 0;
+	}
+	$(window).resize(function() {
+		if ($(window).width() < 500) {
+			$("header").css({height : 68});
+			menu = 0;
+		}
+	});
 	$('#dropdown').click(function(){
 	if(menu == 0){
-		$('header').css({"height":"auto"});
+		$('header').stop().animate({height: 267});
 		menu = 1;
 		}else{
-		$('header').css({"height":"68"});
+		$('header').stop().animate({height: 68});
 		menu = 0;
 		}
 });
