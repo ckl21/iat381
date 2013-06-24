@@ -51,6 +51,7 @@
 
 .homeImage{
 	width:100%;
+	
 }
 
 
@@ -146,4 +147,10 @@
 	color:black;
 	margin:20px 0;
 	
+}
+
+#imageFrame ul{
+padding:0;
+margin:0;
+
 }

@@ -22,11 +22,8 @@ $(document).ready(function() {
 		}
 });
 
-	$(function(){
-		  $("#slides").slidesjs({
-			width: 1280,
-			height: 420
-		  });
-		});
+	$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
 });
 

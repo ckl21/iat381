@@ -73,9 +73,7 @@ nav ul li a{
 }
 
 footer{
-	background-color:rgb(64,65,66);
-	height:260px;
-	padding-top:5px;
+	height:auto;
 }
 
 #footerLogo{
@@ -83,13 +81,13 @@ footer{
 }
 
 footer ul{
-	float:none;
-	list-style-type:none;
-	margin-left:25px;
+	padding:5px 0;
 }
 
 footer ul li{
-	margin-top:5px;
+	float:none;
+	padding:0;
+	margin:10px 40px;
 }
 
 #bannerText{

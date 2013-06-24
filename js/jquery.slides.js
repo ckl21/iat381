@@ -45,7 +45,7 @@
       play: {
         active: false,
         effect: "slide",
-        interval: 5000,
+        interval: 8000,
         auto: true,
         swap: true,
         pauseOnHover: false,
