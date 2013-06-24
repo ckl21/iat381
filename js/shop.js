@@ -2,6 +2,10 @@
 
 $(document).ready(function() {
 
+	if ($(window).width() > 1000) {
+		$(".itemInfo").css({"marginTop" : "0px"});
+	}
+
     $(".item").hover(function(){
 		if ($(window).width() > 1000) {
 			$(this).children(".itemInfo").stop().animate({ marginTop: '-75px'}, 250);
