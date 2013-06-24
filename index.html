@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Board 42 Homepage</title>
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/about.css" />
-	<link rel="stylesheet" type="text/css" href="css/m-about.css" />
-	<link rel="stylesheet" media="(max-width:500px)" type="text/css" href="css/m-global.css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/m-home.css" />
+	<link rel="stylesheet" media="(max-width:560px)" type="text/css" href="css/m-global.css" />
 	<link href='http://fonts.googleapis.com/css?family=QRoboto:300,500' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
 	<script type="text/javascript" src="js/global.js"></script>
+	 <script src="js/jquery.slides.js"></script>
 	
 	
 
@@ -29,7 +30,8 @@
 				<li><a href="cart.html">Cart</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				<li><a href="shop.html">Shop</a></li>
-				<li><a class="active" href="index.html">About</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="active" href="index.html">Home</a></li>
 			
 			</ul>
 			
@@ -37,21 +39,45 @@
 		</div>
 	</header>
 	<div id="imageFrame">
-		<img id="homeImage" src="images/home-image.jpg" alt="Board 42 Home" width="1280"/>
+	
+		<div id="slides">
+			<img class="homeImage" src="images/home-image-4.jpg" alt="Board 42 Home" width="1280"/>
+			<img class="homeImage" src="images/home-image-1.jpg" alt="Board 42 Home" width="1280"/>
+			<img class="homeImage" src="images/home-image-2.jpg" alt="Board 42 Home" width="1280"/>
+			<img class="homeImage" src="images/home-image-3.jpg" alt="Board 42 Home" width="1280"/>
+			
+		</div>
+		
 	</div>
+	<div id="bannerText">
+			<h1>Board 42 Skateboards</h1>
+			<p>Hand crafted and designed to suit the individual needs of true skateboarders. Tested and engineered out of recycled skateboards.</p>
+			<a href="shop.html"><div id="bannerButton">Shop</div></a>
+		</div>
 	<div id="bar"></div>
 	<div id="mainContent">
 		<div id="centerContent">
-			<div id="aboutContent">
-				<h1>About</h1>
-				
-				<p>We are small Australian skateboard company who specialize in making boards for riders who believe in the dream of skateboarding. The idea for the board42 came to the team while brainstorming how to shoot and create a video documenting the true natural feeling a skateboarder has with his board and the rituals they possess.<p>
-
-				<p>Designed in San Francisco by three guys (Dave, Mike and Saen) who have a passion and incredible stamina for skateboarding. Our boards are designed out of recycled old skateboards, and handcrafted to best suit each buyers needs.</p>
-
-				<p>Designed for skaters who believe in the natural feel of a broken in board. Our product is designed, built and quality tested to be best suited for a true skaters needs.</p>
-
-				<img id="videoPlaceholder" src="images/videoImage.jpg" alt="video placeholder" width="500"/>
+			<div id="newsContent">
+				<h1>Latest News</h1>
+				<div class="newsItem">
+					<h2>Saniz Weekend Tournament</h2>
+					<img src="images/news_1.jpg" alt="Saniz Weekend Tournament" width="505"/>
+					<p>We are a small San Francisco skateboard company who specialize in making boards for riders who believe in the dream of skateboarding. The idea for the board42 came to the team while brainstorming how to shoot and create a video documenting the true natural feeling a skateboarder has with his board and the rituals they possess.</p>
+					<div class="timestamp">June 14, 2013 | Categories: <span class="categories">Media, Tournaments, Events</span></div>	
+				</div>
+				<div class="newsItem">
+					<h2>New Artist: Andres Lopez</h2>
+					<img src="images/news_2.jpg" alt="Saniz Weekend Tournament" width="505"/>
+					<p>We are a small San Francisco skateboard company who specialize in making boards for riders who believe in the dream of skateboarding. The idea for the board42 came to the team while brainstorming how to shoot and create a video documenting the true natural feeling a skateboarder has with his board and the rituals they possess.</p>
+					<div class="timestamp">June 13, 2013 | Categories: <span class="categories">New, Artists, Andres Lopez, Products</span></div>	
+				</div>
+				<div class="newsItem">
+					<h2>Summer Tales Contest</h2>
+					<img src="images/news_3.jpg" alt="Saniz Weekend Tournament" width="505"/>
+					<p>We are a small San Francisco skateboard company who specialize in making boards for riders who believe in the dream of skateboarding. The idea for the board42 came to the team while brainstorming how to shoot and create a video documenting the true natural feeling a skateboarder has with his board and the rituals they possess.</p>
+					<div class="timestamp">June 12, 2013 | Categories: <span class="categories">Freebies, Contest, News</span></div>	
+				</div>
+				<div id="showMore">Show More</div>
 			</div>
 			
 			<div id="socialmediaContent">
@@ -77,6 +103,21 @@
 					<div class="tweetTime">
 						<img class="twitterBird" src="images/twitterBird.png" alt="Tweet" />
 						<p>about 1 hour ago</p>
+					</div>
+				</div>
+				<div id="testimonials">
+					<h3>Testimonials</h3>
+					<div class="testimonial">
+						<p>"Nobody can create a better skateboarding experience, with the thought and time they put into each handmade product."</p>
+						<p><span class="testimonial_name">Steve Caballero</span></p>
+					</div>
+					<div class="testimonial">
+						<p>"Nobody can create a better skateboarding experience, with the thought and time they put into each handmade product."</p>
+						<p><span class="testimonial_name">Jereme Rogers </span></p>
+					</div>
+					<div class="testimonial">
+						<p>"Nobody can create a better skateboarding experience, with the thought and time they put into each handmade product."</p>
+						<p><span class="testimonial_name">Ryan Sheckler</span></p>
 					</div>
 				</div>
 			</div>

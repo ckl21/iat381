@@ -91,3 +91,7 @@ footer ul{
 footer ul li{
 	margin-top:5px;
 }
+
+#bannerText{
+	display:none;
+}

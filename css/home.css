@@ -1,0 +1,149 @@
+#slides {
+      display:none;
+	  z-index:-10;
+    }
+
+#bannerText{
+	float:left;
+	z-index:10;
+	margin:-180px 0 0 100px;
+	position:relative;
+	width:40%;
+	color:white;
+}
+#bannerText a {
+	text-decoration:none;
+}
+#bannerText h1{
+	font-size:1.1em;
+	opacity:1;
+}
+
+#bannerText p{
+	font-size:0.8em;
+	opacity:1;
+}
+
+#bannerButton{
+	background-color:#A3DED8;
+	width:70px;
+	padding:5px;
+	text-align:center;
+	opacity:1;
+	color:white;
+}
+
+#mainContent{
+	margin-bottom:15px;
+
+}
+
+#imageFrame{
+	max-height:350px;
+	background-color:#A3DED8;
+	overflow:hidden;
+}
+
+#bar{
+	height:5px;
+	background-color:#A3DED8;
+}
+
+.homeImage{
+	width:100%;
+}
+
+
+#socialmediaContent h2{
+	padding:20px;
+	margin:0;
+}
+
+#newsContent{
+	float:left;
+	width:505px;
+	margin:0;
+}
+
+#newsContent h1{
+	font-size:1em;
+	padding:20px 0 5px 0;
+}
+
+.newsItem{
+	margin-bottom:25px;
+}
+
+.timestamp{
+	background-color:rgb(225,225,225);
+	color:rgb(128,128,128);
+}
+
+.categories{
+	color:black;
+}
+
+#showMore{
+	margin:30px auto;
+	width:125px;
+	padding:10px;
+	background-color:rgb(210,210,210);
+	text-align:center;
+	cursor:pointer;
+}
+#socialmediaContent{
+	float:right;
+	width:350px;
+	margin:50px 0 0 0;
+}
+
+.twitterHighlight{
+	color:#00ccff;
+}
+
+
+#twitterFeed{
+	margin-top:30px;
+	height:480px;
+	background-color:rgb(230,230,230);
+}
+
+#socialmediaLinks a{
+	margin:0 10px;
+}
+.tweet{
+	width:280px;
+	margin:0px auto 30px auto;
+	padding:10px;
+	background-color:rgb(220,220,220);
+}
+
+.tweetTime{
+	margin:0 0 40px 30px;
+}
+
+.twitterBird{
+	float:left;
+	margin-right:10px;
+}
+
+.tweetTime p{
+	padding:2px;
+	font-size:10px;
+}
+
+#testimonials{
+	margin-top:50px;
+}
+.testimonial{
+	font-size:1em;
+	color:rgb(120,120,120);
+	margin-bottom:30px;
+	
+}
+.testimonial_name{
+	font-size:.8em;
+	color:black;
+	margin:20px 0;
+	
+}

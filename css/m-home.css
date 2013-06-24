@@ -1,0 +1,39 @@
+@media (max-width:960px){
+	#socialmediaContent{
+		float:none;
+		margin:50px auto;
+		width:95%;
+		}
+
+	#newsContent{
+		float:none;
+		margin:0 auto;
+		width:95%;
+	}
+
+	#centerContent{
+		width:95%;
+	}
+
+	#newsContent img{
+		display:block;
+		margin:30px auto;
+		width:99%;
+		max-width:500px;
+	}
+
+	.tweet{
+		width:85%;
+	}
+
+	#twitterFeed{
+		margin:45px auto;
+		width: 95%;
+		height: 95%;
+	}
+
+	.tweetTime{
+		margin:30px auto;
+		width:95%;
+	}
+}
