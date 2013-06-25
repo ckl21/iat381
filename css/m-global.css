@@ -89,4 +89,6 @@ footer ul li{
 	padding:0;
 	margin:10px 40px;
 }
-
+.bannerText{
+	display:none;
+}
