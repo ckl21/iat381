@@ -21,6 +21,9 @@
 			type:'inline',
 			midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 		});
+		$('.closer').click(function() {
+			$.magnificPopup.close();
+		});
 	});
 	</script>
 </head>
@@ -366,7 +369,7 @@
 					<input type="checkbox" name="newsletter" id="newsletter" value="newsletter" />
 					<label for="newsletter">Join our mailing list to hear when new products arrive.</label>
 					<br/>
-					<a href="#test-popup" class="open-popup-link"><div id="billingSubmit">Continue</div></a>
+					<a href="#confirm-popup" class="open-popup-link"><div id="billingSubmit">Continue</div></a>
 				</form>
 				<div class="clearBoth"></div>
 			</div>
@@ -421,10 +424,16 @@
 		</div>
 		<div class="clearBoth"></div>
 	</div>
-	<div id="test-popup" class="white-popup mfp-hide">
+	<div id="confirm-popup" class="white-popup mfp-hide">
 		<p>Are you sure you want to complete your purchase?</p>
-		<div class="confirmationButton" id="yes">Yes</div>
-		<div class="confirmationButton" id="no">No</div>
+		<a href="#thank-popup" class="open-popup-link"><div class="confirmationButton" id="yes">Yes</div></a>
+		<div class="confirmationButton closer" id="no">No</div>
+		<div class="clearBoth"></div>
+	</div>
+	
+	<div id="thank-popup" class="white-popup mfp-hide">
+		<p>Thank you! You will recieve an email shortly confirming your purchase.</p>
+		<a href="shop.html"><div class="confirmationButton" id="return">Return to catalog</div></a>
 		<div class="clearBoth"></div>
 	</div>
 

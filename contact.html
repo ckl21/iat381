@@ -11,8 +11,24 @@
 	<link rel="stylesheet" media="(max-width:965px)" type="text/css" href="css/m-contact.css" />
 	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
 	<script type="text/javascript" src="js/global.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
+    <script>
+var map;
+function initialize() {
+  var mapOptions = {
+    zoom: 16,
+    center: new google.maps.LatLng(37.789701, -122.390254),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+	marker = new google.maps.Marker({'position': new google.maps.LatLng(37.789701, -122.390254), map: map, title: 'Board 42'});
+}
 
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
 </head>
 
 <body>
@@ -60,9 +76,9 @@
 				<p>Sunday 11am - 6pm</p>
 			</div>
 
-
-				<img id="location" src="images/map.png" width="695" alt="Board 42 Location" />
-				
+		<div id="location">
+				 <div syle="height:100%;"id="map-canvas"></div>
+		</div>
 
 
 		</div>
