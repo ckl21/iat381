@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+
+
 	var menu;
 	if ($(window).width() < 560) {
 
@@ -20,10 +22,12 @@ $(document).ready(function() {
 		$('header').stop().animate({height: 68});
 		menu = 0;
 		}
+		
+		
+		
 });
 
-	$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
+
+
 });
 

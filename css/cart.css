@@ -1,3 +1,6 @@
+body{
+	background-color:rgb(25,25,25);
+}
 #mainContent{
 	background-color:#A3DED8;
 	padding-bottom:30px;
@@ -47,12 +50,13 @@ h2{
 	color: #ffffff;
 	text-decoration: none;
 	text-shadow:none;
-	width: 200px;
+	width: 125px;
 	cursor:pointer;
+	text-align:center;
 }
 
 #billingSubmit:hover{
-background:#7A7A7A;
+	background:#7A7A7A;
 
 }
 
@@ -120,3 +124,30 @@ hr{
 	width:90%;
 }
 
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.confirmationButton{
+	float:left;
+	background-color:rgb(64,65,66);
+	font-size: 24px;
+	padding: 5px;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow:none;
+	width: 80px;
+	cursor:pointer;
+	text-align:center;
+	margin:20px 0 10px 20px;
+}
+
+.confirmationButton:hover{
+	background:#7A7A7A;
+}
