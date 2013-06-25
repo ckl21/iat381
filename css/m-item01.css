@@ -21,11 +21,6 @@
 		width:95%;
 	}
 
-	#quantitySubmit{
-		width: 50%;
-		margin: 75px 15px 0 70px;
-		
-	}
 
 	#tabs div{
 		width: 50%;
@@ -41,9 +36,6 @@
 		margin:0 auto;
 	}
 	
-	#itemDescription h2{
-		padding-top:75px;
-	}
 
 	#quantityInput{
 	width:25%;
@@ -64,17 +56,9 @@
 		clear:both;
 	}
 	
-	#quantitySubmit{
-	margin-top:25px;
-	width:80%;
-	float:none;
-	margin:20px;
-	}
 	#itemDescription{
 	margin-top:0;
 	height:auto;
 	}
-	#quantityInput{
-	width:60%;
-	}
+
 }
