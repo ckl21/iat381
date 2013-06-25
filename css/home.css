@@ -3,31 +3,31 @@
 	  z-index:-10;
     }
 
-#bannerText{
+.bannerText{
 	float:left;
 	z-index:10;
 	margin:-180px 0 0 100px;
-	position:relative;
+	position:absolute;
 	width:40%;
 	color:white;
 }
-#bannerText a {
+.bannerText a {
 	text-decoration:none;
 }
-#bannerText h1{
+.bannerText h1{
 	font-size:1.1em;
 	opacity:1;
 }
 
-#bannerText p{
+.bannerText p{
 	font-size:0.8em;
 	opacity:1;
 }
 
-#bannerButton{
+.bannerButton{
 	background-color:#A3DED8;
-	width:70px;
-	padding:5px;
+	float:left;
+	padding:5px 10px;
 	text-align:center;
 	opacity:1;
 	color:white;

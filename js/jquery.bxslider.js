@@ -79,7 +79,10 @@
 		onSliderLoad: function() {},
 		onSlideBefore: function() {},
 		onSlideAfter: function() {},
-		onSlideNext: function() {},
+		onSlideNext: function() {
+
+		
+		},
 		onSlidePrev: function() {}
 	}
 

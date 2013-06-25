@@ -17,7 +17,12 @@
 	<script>
 	$(document).ready(function() {
 		$('.bxslider').bxSlider();
+		$('.bannerText').css({'marginTop' : -($(window).width()/4.5)});
+		$(window).resize(function() {
+			$('.bannerText').css({'marginTop' : -($(window).width()/4.5)});
+		});
 	});
+	
 	</script>
 </head>
 
@@ -44,19 +49,38 @@
 	<div id="imageFrame">
 	
 		<ul class="bxslider">
-			<li><a href="shop.html"><img class="homeImage" src="images/home-image-4.jpg" alt="Board 42 Home" width="1280"/></a></li>
-			<li><a href="contact.html"><img class="homeImage" src="images/home-image-1.jpg" alt="Board 42 Home" width="1280"/></a></li>
-			<li><a href="item01.html"><img class="homeImage" src="images/home-image-2.jpg" alt="Board 42 Home" width="1280"/></a></li>
-			<li><a href="contact.html"><img class="homeImage" src="images/home-image-3.jpg" alt="Board 42 Home" width="1280"/></a></li>
+			<li><a href="shop.html"><img class="homeImage" src="images/home-image-4.jpg" alt="Board 42 Home" width="1280"/></a>
+			<div class="bannerText">
+				<h1>Board 42 Skateboards</h1>
+				<p>Hand crafted and designed to suit the individual needs of true skateboarders. Tested and engineered out of recycled skateboards.</p>
+				<a href="shop.html"><div class="bannerButton">Shop</div></a>
+			</div>
+			</li>
+			<li><a href="contact.html"><img class="homeImage" src="images/home-image-1.jpg" alt="Board 42 Home" width="1280"/></a>
+				<div class="bannerText">
+					<h1>Summer has begun</h1>
+					<p>When life gives you the skills to use a board, you grab one that can handle the curves of the road to all extremes. The Baroong Board is our true go to board.</p>
+					<a href="shop.html"><div class="bannerButton">Shop</div></a>
+				</div>
+			</li>
+			<li><a href="item01.html"><img class="homeImage" src="images/home-image-2.jpg" alt="Board 42 Home" width="1280"/></a>
+				<div class="bannerText">
+					<h1>One of our all time favourites</h1>
+					<p>When life gives you the skills to use a board, you grab one that can handle the curves of the road to all extremes. The Baroong Board is our true go to board.</p>
+					<a href="item01.html"><div class="bannerButton">View Board</div></a>
+			</div>
+			</li>
+			<li><a href="contact.html"><img class="homeImage" src="images/home-image-3.jpg" alt="Board 42 Home" width="1280"/></a>
+				<div class="bannerText">
+					<h1>Summer has begun</h1>
+					<p>When life gives you the skills to use a board, you grab one that can handle the curves of the road to all extremes. The Baroong Board is our true go to board.</p></a>
+				</div>
+			</li>
 			
 		</ul>
 		
 	</div>
-	<div id="bannerText">
-			<h1>Board 42 Skateboards</h1>
-			<p>Hand crafted and designed to suit the individual needs of true skateboarders. Tested and engineered out of recycled skateboards.</p>
-			<a href="shop.html"><div id="bannerButton">Shop</div></a>
-		</div>
+	
 	<div id="bar"></div>
 	<div id="mainContent">
 		<div id="centerContent">
