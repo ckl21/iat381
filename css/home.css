@@ -6,7 +6,7 @@
 .bannerText{
 	float:left;
 	z-index:10;
-	margin:-180px 0 0 100px;
+	margin:180px 0 0 100px;
 	position:absolute;
 	width:40%;
 	color:white;
@@ -14,6 +14,7 @@
 .bannerText a {
 	text-decoration:none;
 }
+
 .bannerText h1{
 	font-size:2.1em;
 	opacity:1;
@@ -120,6 +121,11 @@
 #socialmediaLinks a{
 	margin:0 10px;
 }
+
+/* need to split up each one
+#socialmediaLinks:hover{
+	opacity:.6;
+}*/
 .tweet{
 	width:280px;
 	margin:0px auto 30px auto;
