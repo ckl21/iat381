@@ -48,13 +48,13 @@
 		width:200px;
 		margin:0 auto;
 	}
-	.itemViewThumbsMid{
-		margin-right:0;
+	
+	.itemViewThumbs{
+		margin:0;
+		padding:0;
+		width:65px;
 	}
 
-	.itemViewNewRow{
-		clear:both;
-	}
 	
 	#itemDescription{
 	margin-top:0;

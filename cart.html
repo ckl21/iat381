@@ -35,13 +35,12 @@
 		<img id="dropdown" src="images/menu-icon.png" alt="menu" />
 		<nav>
 			<ul>
-		
-				<li><a class="active" href="cart.html">Cart</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="shop.html">Shop</a></li>
+				<li><a href="index.html">Home</a></li>	
 				<li><a href="about.html">About</a></li>
-				<li><a href="index.html">Home</a></li>
-			
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a class="active" href="cart.html">Cart</a></li>
+				
 			</ul>
 		</nav>
 	</header>
@@ -49,6 +48,55 @@
 	<div id="mainContent">
 		<div id="centerContent">
 			<h1>Shopping Cart</h1>
+			
+			
+			
+			<div id="cart">
+				<table id="cartContents">
+					<tbody>
+						<tr>
+							<th>Item</th>
+							<th>Quantity</th>
+							<th>Price</th>
+							<th>Remove</th>
+						</tr>
+						<tr class="notEmpty">
+							<td><a href="item01.html"><div class="image"><img class="itemImg" src="images/boards/boards_03.jpg" height="90" alt="Skateboard" /></div> <span class="itemName">Baroong<br /> Board</span></a></td>
+							<td>
+							<form>
+								<input id="quantity" type="number" min="1" max="99" value="1" name="quantity">
+							</form>
+							</td>
+							<td>$75.00</td>
+							<td><img class="removeIcon" src="images/delete.png" height="25" alt="Remove" /></td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr/>
+				<table id="total">
+					<tbody>
+						<tr>
+							<td>Subtotal</td>
+							<td>$75.00</td>
+						</tr>
+						<tr>
+							<td>Shipping</td>
+							<td>$5.00</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>$80.00</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="clearBoth"></div>
+			</div>
 			
 			<div id="billingInfo">
 				<h2>Billing Info</h2>
@@ -371,53 +419,6 @@
 					<br/>
 					<a href="#confirm-popup" class="open-popup-link"><div id="billingSubmit">Continue</div></a>
 				</form>
-				<div class="clearBoth"></div>
-			</div>
-			
-			<div id="cart">
-				<table id="cartContents">
-					<tbody>
-						<tr>
-							<th>Item</th>
-							<th>Quantity</th>
-							<th>Price</th>
-							<th>Remove</th>
-						</tr>
-						<tr class="notEmpty">
-							<td><a href="item01.html"><img class="itemImg" src="images/boards/boards_03.jpg" height="90" alt="Skateboard" /> <span class="itemName">Baroong<br /> Board</span></a></td>
-							<td>
-							<form>
-								<input id="quantity" type="number" min="1" max="99" value="1" name="quantity">
-							</form>
-							</td>
-							<td>$75.00</td>
-							<td><img class="removeIcon" src="images/delete.png" height="25" alt="Remove" /></td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
-						</tr>
-					</tbody>
-				</table>
-				<hr/>
-				<table id="total">
-					<tbody>
-						<tr>
-							<td>Subtotal</td>
-							<td>$75.00</td>
-						</tr>
-						<tr>
-							<td>Shipping</td>
-							<td>$5.00</td>
-						</tr>
-						<tr>
-							<td>Total</td>
-							<td>$80.00</td>
-						</tr>
-					</tbody>
-				</table>
 				<div class="clearBoth"></div>
 			</div>
 			

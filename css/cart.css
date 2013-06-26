@@ -15,14 +15,14 @@ h2{
 }
 
 #billingInfo{
-	float:left;
+	float:right;
 	width:450px;
 	height:504px;
 	background-color:white;
 }
 
 #cart{
-	float:right;
+	float:left;
 	width:450px;
 	height:auto;
 	background-color:white;
@@ -157,4 +157,9 @@ hr{
 }
 .confirmationButton:hover{
 	background:#7A7A7A;
+}
+
+.image{
+width:auto;
+float:left;
 }

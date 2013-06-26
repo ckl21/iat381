@@ -1,7 +1,11 @@
+#cart{
+	padding-bottom:60px;
+	margin: 10px 0px 50px 0 ;
+}
 #billingInfo{
 	width:100%;
-	margin: 10px 0px 50px 0 ;
-	padding-bottom:60px;
+	
+
 }
 #billingSubmit{
 	width:50%;
@@ -20,11 +24,21 @@
 }
 
 .itemImg{
-	display:none;
+	margin:0 auto;
+}
+.image{
+	width:100%;
+	margin-top:10px;
 }
 
 .itemName{
-	float:none;
+	clear:both;
 	margin-top:0;
-	text-align:left;
+	float:none;
+	text-align:center;
+
+	
+}
+a{
+ 	text-decoration:none;
 }

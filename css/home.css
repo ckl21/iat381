@@ -118,7 +118,7 @@
 	background-color:#E6E6E6;
 }
 
-#socialmediaLinks a{
+.socialmediaLinks a{
 	margin:0 10px;
 }
 
@@ -168,4 +168,8 @@
 padding:0;
 margin:0;
 
+}
+
+.secondSet{
+	display:none;
 }
