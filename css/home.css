@@ -15,12 +15,12 @@
 	text-decoration:none;
 }
 .bannerText h1{
-	font-size:1.1em;
+	font-size:2.1em;
 	opacity:1;
 }
 
 .bannerText p{
-	font-size:0.8em;
+	font-size:1.0em;
 	opacity:1;
 }
 
@@ -69,6 +69,8 @@
 #newsContent h1{
 	font-size:1em;
 	padding:20px 0 5px 0;
+	padding-bottom: 8px;
+	border-bottom: 1px solid rgb(200,200,200);
 }
 
 .newsItem{
@@ -78,6 +80,8 @@
 .timestamp{
 	background-color:rgb(225,225,225);
 	color:rgb(128,128,128);
+	font-size: 12px;
+	padding: 5px;
 }
 
 .categories{
@@ -92,6 +96,10 @@
 	text-align:center;
 	cursor:pointer;
 }
+#showMore:hover{
+	opacity: .8;
+}
+
 #socialmediaContent{
 	float:right;
 	width:350px;
@@ -99,14 +107,14 @@
 }
 
 .twitterHighlight{
-	color:#00ccff;
+	color:#00AEE7;
 }
 
 
 #twitterFeed{
 	margin-top:30px;
 	height:480px;
-	background-color:rgb(230,230,230);
+	background-color:#E6E6E6;
 }
 
 #socialmediaLinks a{
@@ -116,7 +124,8 @@
 	width:280px;
 	margin:0px auto 30px auto;
 	padding:10px;
-	background-color:rgb(220,220,220);
+	background-color:#D6D6D6;
+	color: #777777;
 }
 
 .tweetTime{
@@ -138,13 +147,13 @@
 }
 .testimonial{
 	font-size:1em;
-	color:rgb(120,120,120);
+	color:#808080;
 	margin-bottom:30px;
 	
 }
 .testimonial_name{
 	font-size:.8em;
-	color:black;
+	color:#414042;
 	margin:20px 0;
 	
 }
