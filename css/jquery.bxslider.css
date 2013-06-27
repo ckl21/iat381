@@ -28,6 +28,10 @@
 	
 }
 
+.bannerText{
+	font-weight: 300;
+}
+
 /* LOADER */
 
 .bx-wrapper .bx-loading {

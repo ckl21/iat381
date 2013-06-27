@@ -133,6 +133,7 @@
 	padding:10px;
 	background-color:#D6D6D6;
 	color: #777777;
+	font-weight: 300;
 }
 
 .tweetTime{
@@ -156,6 +157,7 @@
 	font-size:1em;
 	color:#808080;
 	margin-bottom:30px;
+	font-weight: 300;
 	
 }
 .testimonial_name{
@@ -174,3 +176,11 @@ margin:0;
 .secondSet{
 	display:none;
 }
+
+#dropdown:hover{
+	opacity: .7;
+}
+
+#facebook:hover, #twitter:hover, #instagram:hover, #vimeo:hover, #soundcloud:hover{
+	opacity: .7;
+}	

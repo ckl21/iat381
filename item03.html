@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Board 42 Homepage</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/item.css" />
+	<link rel="stylesheet" media="(max-width:560px)" type="text/css" href="css/m-global.css" />
+	<link rel="stylesheet" type="text/css" href="css/m-item01.css" />
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js" ></script>
+	<script type="text/javascript" src="js/global.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<a href="index.html"> <img id="logo" src="images/logo.png" alt="Board 42" /> </a>
+		<img id="dropdown" src="images/menu-icon.png" alt="menu" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>	
+				<li><a href="about.html">About</a></li>
+				<li><a class="active" href="shop.html">Shop</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="cart.html">Cart</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<a href="shop.html" id="backButton" title="back"><img src="images/hover-back-button.png" height="45" alt="Back"/></a>
+	<div id="mainContent">
+
+
+
+		<div id="centerContent">
+			<div id="itemView">
+				<div id="itemViewLarge">
+					<img src="images/boards/boards_05.jpg" alt="Skateboard 1" height="425" />
+				</div>
+				<div id="itemThumbnails">
+					<h2>Related Boards</h2>
+					<div class="itemViewThumbs"> 
+						<img src="images/boards/boards_06.jpg" alt="Skateboard 2" height="90" /></a>
+					</div>
+					<div class="itemViewThumbs"> 
+						<img src="images/boards/boards_07.jpg" alt="Skateboard 3" height="90" /></a>
+					</div>
+					<div class="itemViewThumbs"> 
+						<img src="images/boards/boards_03.jpg" alt="Skateboard 4" height="90" /></a>
+					</div>
+					<div class="clearBoth"></div>
+				</div>
+			</div>
+			
+			<div id="itemDescription">
+			<div class="boardtitle">
+				<h2>Crete Board</h2>
+			</div>
+			<div class="amount">
+				<h3>USD $67.00</h3>
+			</div>
+			<div id="artist">
+				<img src="images/artist-3.jpg" alt="artist"/>
+				<p>Artist:</p>
+				<p><span class="artistName">Zeek Crenestr</span></p>
+			</div>
+			<div class="clearBoth"></div>
+			<div class="description">
+				<p>This particular board is built to manuever those tight corners with its small frame and base. Riders can handle this board swiftly and quickly when it comes to dodge in and out of San Francisco. With A simple shell frame and base, this board handles great for quick movements on through the city or downhill.</p>
+			</div>
+			<h4>Quantity</h4>
+			<form action="cart.html">
+				<input id="quantityInput" type="number" min="1" max="99" name="quantity"><br/>
+				<input id="quantitySubmit" type="submit" value="Add to Cart">
+			</form>
+			</div>
+		<div class="clearBoth"></div>
+	</div>
+	</div>
+	<footer>
+		<img id="footerLogo" src="images/footerLogo.png" alt="Board 42" />
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="shop.html">Shop</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="cart.html">Cart</a></li>
+		</ul>
+	</footer>
+
+</body>
+
+</html>
