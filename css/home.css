@@ -10,6 +10,7 @@
 	position:absolute;
 	width:40%;
 	color:white;
+
 }
 .bannerText a {
 	text-decoration:none;
@@ -52,6 +53,7 @@
 
 .homeImage{
 	width:100%;
+	cursor:pointer;
 	
 }
 
@@ -181,6 +183,6 @@ margin:0;
 	opacity: .7;
 }
 
-#facebook:hover, #twitter:hover, #instagram:hover, #vimeo:hover, #soundcloud:hover{
+.facebook:hover, .twitter:hover, .instagram:hover, .vimeo:hover, .soundcloud:hover{
 	opacity: .7;
 }	

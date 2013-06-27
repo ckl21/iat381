@@ -38,3 +38,8 @@ h3{
 	font-size:0.8em;
 	color:rgb(125,125,125);
 }
+
+#video{
+	width:100%;
+	border:none;
+}
