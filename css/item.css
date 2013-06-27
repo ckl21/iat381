@@ -44,11 +44,15 @@ h1{
 
 .itemViewThumbs{
 	float:left; 
-	margin:0 34px 15px 0;
+	margin:0 34px 35px 0;
 	width:80px;
 	background-color:white;
 }
 
+.itemViewThumbs:hover{
+	opacity: .7;
+	cursor: pointer;
+}
 .itemViewThumbsLast{
 	margin-right:0;
 }

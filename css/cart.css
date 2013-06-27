@@ -17,7 +17,7 @@ h2{
 #billingInfo{
 	float:right;
 	width:450px;
-	height:504px;
+	height:530px;
 	background-color:white;
 }
 
@@ -29,15 +29,22 @@ h2{
 }
 
 #cart table{
-	margin-bottom:15px;
+	margin-bottom:28px;
 }
 #billingForm{
 	margin:20px;
 
 }
 
+.span50, .span100, .span33{
+	border: 2px solid #bdc3c7;
+	text-indent: 5px;
+	height: 20px;
+}
+
+
 #billingSubmit{
-	float:right;
+	float:left;
 	margin-top:40px;
 	margin-bottom:20px;
 	background-color:rgb(64,65,66);
@@ -162,4 +169,9 @@ hr{
 .image{
 width:auto;
 float:left;
+}
+
+.removeIcon:hover{
+	opacity: .5;
+	cursor: pointer;
 }
